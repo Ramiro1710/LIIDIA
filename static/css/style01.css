@@ -1,0 +1,160 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,700italic,800italic);
+@import url(https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,300,700);
+body
+{
+	font-family: 'Mukta Vaani', sans-serif;
+    font-size: 16px;
+    min-width: 850px;
+	overflow-x: hidden;
+}
+footer
+{
+    background-color: rgb(124, 135, 142);
+    font-family: "Arial";
+    padding: 20px 0;
+    text-align: center;
+}
+h1
+{
+    top: 10px;
+    display: inline-block;
+    position: relative;
+}
+header
+{
+    background-color: rgb(124, 135, 142);
+}
+header article img
+{
+    position: relative;
+    width: 90px;
+}
+nav
+{
+    display: inline-block;
+    font-size: 27px;
+    margin-top: -35px;
+    padding: 10px;
+}
+nav ul
+{
+    background: gray;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+nav ul li
+{
+    float: left;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: auto;
+}
+nav a
+{
+    background: #7e7e7e00;
+    border-radius: 10%;
+    color: #ffffff;
+    display: block;
+    font: bold 18px sans-serif;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    -webkit-transition: all .25s ease;
+    -moz-transition: all .25s ease;
+    -ms-transition: all .25s ease;
+    -o-transition: all .25s ease;
+    transition: all .25s ease;
+}
+nav li:hover a
+{
+  background: #7c878e00;
+  border-radius: 10%;
+  color: orange;
+}
+
+#artLiidia article article
+{
+    display: inline-block;
+    vertical-align: middle;
+}
+#artLiidia img
+{
+    width: 150px;
+}
+#artTituloDelfin
+{
+    display: inline-block;
+    margin-bottom: -17px;
+    margin-left: -23px;
+    margin-top: 30px;
+    width: 200px;
+}
+#artTituloDelfin img
+{
+    margin-bottom: -45px;
+}
+#logoIIEG
+{
+    display: inline;
+    margin-top: 30px;
+    margin-left: 10px;
+    position: relative;
+    width: 300px;
+    vertical-align: middle;
+}
+#logoJalisco
+{
+    display: inline;
+    float: right;
+    margin-right: 40px;
+    margin-top: 9px;
+    width: 250px;
+}
+#secMenu
+{
+    display: inline-block;
+    margin-top: 40px;
+    text-align: center;
+    width: 100%;
+}
+#secPrincipal
+{
+    margin-left: 40px;
+    padding-bottom: 40px;
+}
+#secPrincipal h2
+{
+    border-left: 3px solid darkgray;
+    font-size: 1.8em;
+    padding-left: 10px;
+}
+#secTituloPag
+{
+    border-bottom: 3px solid darkgray;
+    height: 85px;
+    margin: 0 auto;
+    margin-top: -15px;
+    text-align: center;
+    width: 60%;
+}
+
+.colorBlanco
+{
+    color: white;
+}
+.letraChica
+{
+    font-size: 0.7em;
+}
+.letraGrande
+{
+    font-size: 2.2em;
+}
+.negrita
+{
+    font-weight: bold;
+}

@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <!-- Basic -->
+        <title>LIIDIA | Delfin IIEG 2020</title>
+        <!-- Define Charset -->
+        <meta charset="utf-8">
+        <!-- Responsive Metatag -->
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <!-- Page Description and Author -->
+        <meta name="description" content="Margo - Responsive HTML5 Template">
+        <meta name="author" content="GrayGrids">
+        <!-- Bootstrap CSS  -->
+        <link rel="stylesheet" href="{{ url_for('static', filename='asset/css/bootstrap.min.css')}}" type="text/css" media="screen">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <!-- Revolution Slider -->
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/settings.css')}}" type="text/css" media="screen">
+        <!-- Font Awesome CSS -->
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/font-awesome.min.css')}}" type="text/css" media="screen">
+        <!-- Slicknav -->
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/slicknav.css')}}" media="screen">
+        <!-- Margo CSS Styles  -->
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css')}}" media="screen">
+        <!-- Responsive CSS Styles  -->
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/responsive.css')}}" media="screen">
+        <!-- Css3 Transitions Styles  -->
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/animate.css')}}" media="screen">
+        <!-- Color Defult -->
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/colors/red.css')}}" media="screen" />
+    </head>
+    <body>
+        <header>
+            <div class="row text-center">
+                <img src="{{ url_for('static', filename='img/logo_iieg.png')}}" id="logoIIEG" alt="Logo de IIEG" class="col col-sm-8 img-fluid"/>
+                <article id="artTituloDelfin" class="col img-fluid">
+                    <img id="logoDelfin" src="{{ url_for('static', filename='img/logo_delfin.png')}}" alt="Logotipo Delfín" />
+                    <h1 class="letraGrande negrita colorBlanco">Delfín 2020</h1>
+                </article>
+                <img src="{{ url_for('static', filename='img/logo_jalisco.png')}}" id="logoJalisco" alt="Escudo de Jalisco" class="col img-fluid"/>
+            </div>
+            <section id="secMenu">
+                <nav>
+                    <ul>
+                        <li><a href="/">Incio</a></li>
+                        <li><a href="/LIIDIA">LIIDIA</a></li>
+                        <li><a href="http://10.25.7.11:5000/">CHICHO</a></li>
+                        <li><a href="/Documentacion">Documentación</a></li>
+                        <li><a href="/Integrantes">Integrantes</a></li>
+                    </ul>
+                </nav> 
+            </section>
+        </header>
+
+        <section id="secTituloPag">
+            <h1 class="letraGrande negrita">LIIDIA</h1>
+        </section>
+        <section id="secPrincipal">
+            <div class="list-group col col-sm-2 img-fluid">
+                <span href="#" class="list-group-item active">
+                    Cámaras
+                </span>
+                <a href="javascript:camara(0)" class="list-group-item">
+                    <i class="fa fa-camera"></i> 01-comedor-b
+                </a>
+                <a href="javascript:camara(1)" class="list-group-item">
+                    <i class="fa fa-camera"></i> 02-area-discap
+                </a>
+                <a href="javascript:camara(2)" class="list-group-item">
+                    <i class="fa fa-camera"></i> 03-porton-dere
+                </a>
+                <a href="javascript:camara(3)" class="list-group-item">
+                    <i class="fa fa-camera"></i> 04-porton-izq
+                </a>
+                <a href="javascript:camara(4)" class="list-group-item">
+                    <i class="fa fa-camera"></i> 05-caseta
+                </a>
+                <a href="javascript:camara(5)" class="list-group-item">
+                    <i class="fa fa-camera"></i> 06-area-bicicletas
+                </a>
+                <a href="javascript:camara(6)" class="list-group-item">
+                    <i class="fa fa-camera"></i> 07- auditorio-pasillo-cocineta
+                </a>
+                <a href="javascript:camara(7)" class="list-group-item">
+                    <i class="fa fa-camera"></i> 08-auditorio-pral
+                </a>
+                <a href="javascript:camara(8)" class="list-group-item">
+                    <i class="fa fa-camera"></i> 09-auditorio-pasillo
+                </a>
+                <a href="javascript:camara(9)" class="list-group-item">
+                    <i class="fa fa-camera"></i> 10-pasillo-rece
+                </a>
+                <a href="javascript:camara(10)" class="list-group-item">
+                    <i class="fa fa-camera"></i> 11-auditorio-huerto
+                </a>
+                <a href="javascript:camara(11)" class="list-group-item">
+                    <i class="fa fa-camera"></i> 12-planeacion
+                </a>
+                <a href="javascript:camara(12)" class="list-group-item">
+                    <i class="fa fa-camera"></i> 13-reloj-checa
+                </a>
+                <a href="javascript:camara(13)" class="list-group-item">
+                    <i class="fa fa-camera"></i> 14-juridico-co
+                </a>
+                <a href="javascript:camara(14)" class="list-group-item">
+                    <i class="fa fa-camera"></i> 15-direccion-g
+                </a>
+                <a href="javascript:camara(15)" class="list-group-item">
+                    <i class="fa fa-camera"></i> 16-geografia
+                </a>
+                <a href="javascript:camara(16)" class="list-group-item">
+                    <i class="fa fa-camera"></i> 17-comedor-int
+                </a>
+                <a href="javascript:camara(17)" class="list-group-item">
+                    <i class="fa fa-camera"></i> 19-antena-bod
+                </a>
+                <a href="javascript:camara(18)" class="list-group-item">
+                    <i class="fa fa-camera"></i> 20-bodega-ad
+                </a>
+                <a href="javascript:camara(19)" class="list-group-item">
+                    <i class="fa fa-camera"></i> 21-ups-site
+                </a>
+                <a href="javascript:camara(20)" class="list-group-item">
+                    <i class="fa fa-camera"></i> 22-inversores
+                </a>
+                <a href="javascript:camara(21)" class="list-group-item">
+                    <i class="fa fa-camera"></i> 23-site-entrada
+                </a>
+                <a href="javascript:camara(22)" class="list-group-item">
+                    <i class="fa fa-camera"></i> 24-site-servido
+                </a>
+            </div>
+                <br><br><br>
+                <img id="camara" src="/video_feed/0/0" class="img-responsive center-block" width="50%">
+                <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                
+        </section>
+    </div>
+        <footer>
+            <span class="colorBlanco letraChica">
+                <p>INSTITUTO DE INFORMACIÓN ESTADÍSTICA Y GEOGRÁFICA</p>
+                <p>Calzada de los Pirules 71 Col. Cd. Granja C.P. 45010 Tel. (33) 37771770</p>
+                <p>Zapopan, Jalisco, México</p>
+            </span>
+        </footer>
+
+    <script>
+    function camara(id) {
+        var today = new Date();
+        var time = today.getMinutes() + ":" + today.getSeconds();
+        $("#camara").attr("src","/video_feed/"+id+"/"+time);
+    }
+
+    </script>
+    </body>
+</html>

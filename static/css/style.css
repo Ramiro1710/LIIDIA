@@ -1,0 +1,234 @@
+body
+{
+	font-family: 'Mukta Vaani', sans-serif;
+    font-size: 16px;
+    min-width: 1250px;
+	overflow-x: hidden;
+}
+footer
+{
+    background-color: rgb(124, 135, 142);
+    font-family: "Arial";
+    padding: 20px 0;
+    text-align: center;
+}
+h1
+{
+    top: 10px;
+    display: inline-block;
+    position: relative;
+}
+header
+{
+    background-color: rgb(124, 135, 142);
+}
+header article img
+{
+    position: relative;
+    width: 90px;
+}
+nav
+{
+    display: inline-block;
+    font-size: 27px;
+    margin-top: -35px;
+    padding: 10px;
+}
+nav ul
+{
+    background: gray;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+nav ul li
+{
+    float: left;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: auto;
+}
+nav a
+{
+    background: #7e7e7e00;
+    border-radius: 10%;
+    color: #ffffff;
+    display: block;
+    font: bold 18px sans-serif;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    -webkit-transition: all .25s ease;
+    -moz-transition: all .25s ease;
+    -ms-transition: all .25s ease;
+    -o-transition: all .25s ease;
+    transition: all .25s ease;
+}
+nav li:hover a
+{
+    background: #7c878e00;
+    border-radius: 10%;
+    color: orange;
+}
+table
+{
+    width:80%; 
+    margin-left: auto; 
+    margin-right: auto; 
+    margin-top: 10px;
+}
+table img
+{
+    width: 80px;
+}
+table p
+{
+    color: black;
+}
+th, td
+{
+    padding-top: 30px;
+    text-align: center;
+}
+
+#artChicho
+{
+    margin: 15px;
+    padding-right: 40px;
+    text-align: right;
+    width: 100%;
+}
+#artInicio
+{
+    margin: 0 auto;
+    width: 70%;
+}
+#artInicio article
+{
+    display: inline-block;
+    vertical-align: middle;
+}
+#artIntegrantes article
+{
+    padding-left: 30px;
+    vertical-align: middle;
+}
+#artIntegrantes article article
+{
+    display: inline-block;
+    padding-left: 0px;
+    vertical-align: middle;
+}
+#artIntegrantes img
+{
+    width: 150px;
+}
+#artLiidia
+{
+    margin: 15px;
+    width: 100%;
+}
+#artTituloDelfin
+{
+    display: inline-block;
+    margin-bottom: -17px;
+    margin-left: -23px;
+    margin-top: 30px;
+    width: 200px;
+}
+#artTituloDelfin img
+{
+    margin-bottom: -45px;
+}
+#imgChicho 
+{
+    float: right;
+    margin-left: 50px;
+    width: 350px;
+}
+#imgLiidia
+{
+    margin-right: 50px;
+    width: 350px;
+}
+#logoIIEG
+{
+    display: inline;
+    margin-top: 30px;
+    margin-left: 10px;
+    position: relative;
+    width: 300px;
+    vertical-align: middle;
+}
+#logoJalisco
+{
+    display: inline;
+    float: right;
+    margin-right: 40px;
+    margin-top: 9px;
+    width: 250px;
+}
+#secMenu
+{
+    display: inline-block;
+    margin-top: 40px;
+    text-align: center;
+    width: 100%;
+}
+#secPrincipal
+{
+    padding: 20px 40px 40px 40px; 
+}
+#secPrincipal h2
+{
+    border-left: 3px solid darkgray;
+    font-size: 1.8em;
+    padding-left: 10px;
+}
+#secTituloPag
+{
+    border-bottom: 3px solid darkgray;
+    height: 85px;
+    margin: 0 auto;
+    margin-top: -15px;
+    text-align: center;
+    width: 60%;
+}
+#tituloChicho
+{
+    border-right: 3px solid darkgray;
+    float: right;
+    font-size: 1.8em;
+    padding-right: 10px;
+}
+
+.colorBlanco
+{
+    color: white;
+}
+.cursiva
+{
+    font-style: italic;
+}
+.derecha
+{
+    float: right;
+}
+.letraChica
+{
+    font-size: 0.7em;
+}
+.letraMediana
+{
+    font-size: 1.1em;
+}
+.letraGrande
+{
+    font-size: 2.2em;
+}
+.negrita
+{
+    font-weight: bold;
+}

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <!-- Basic -->
+        <title>Inicio | Delfin IIEG 2020</title>
+        <!-- Define Charset -->
+        <meta charset="utf-8">
+        <!-- Responsive Metatag -->
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <!-- Page Description and Author -->
+        <meta name="description" content="Margo - Responsive HTML5 Template">
+        <meta name="author" content="GrayGrids">
+        <!-- Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Mukta+Vaani" rel="stylesheet">
+        <!-- Bootstrap CSS  -->
+        <link rel="stylesheet" href="{{ url_for('static', filename='asset/css/bootstrap.min.css')}}" type="text/css" media="screen">
+        <!-- Revolution Slider -->
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/settings.css')}}" type="text/css" media="screen">
+        <!-- Font Awesome CSS -->
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/font-awesome.min.css')}}" type="text/css" media="screen">
+        <!-- Slicknav -->
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/slicknav.css')}}" media="screen">
+        <!-- Margo CSS Styles  -->
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css')}}" media="screen">
+        <!-- Responsive CSS Styles  -->
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/responsive.css')}}" media="screen">
+        <!-- Css3 Transitions Styles  -->
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/animate.css')}}" media="screen">
+        <!-- Color Defult -->
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/colors/red.css')}}" media="screen" />
+    </head>
+    <body>
+        <header>
+            <div class="row text-center">
+                <img src="{{ url_for('static', filename='img/logo_iieg.png')}}" id="logoIIEG" alt="Logo de IIEG" class="col col-sm-8 img-fluid"/>
+                <article id="artTituloDelfin" class="col img-fluid">
+                    <img id="logoDelfin" src="{{ url_for('static', filename='img/logo_delfin.png')}}" alt="Logotipo Delfín" />
+                    <h1 class="letraGrande negrita colorBlanco">Delfín 2020</h1>
+                </article>
+                <img src="{{ url_for('static', filename='img/logo_jalisco.png')}}" id="logoJalisco" alt="Escudo de Jalisco" class="col img-fluid"/>
+            </div>
+            <section id="secMenu">
+                <nav>
+                    <ul>
+                        <li><a href="/">Incio</a></li>
+                        <li><a href="/LIIDIA">LIIDIA</a></li>
+                        <li><a href="http://10.25.7.11:5000/">CHICHO</a></li>
+                        <li><a href="/Documentacion">Documentación</a></li>
+                        <li><a href="/Integrantes">Integrantes</a></li>
+                    </ul>
+                </nav> 
+            </section>
+        </header>
+
+        <section id="secTituloPag">
+            <h1 class="letraGrande negrita">INICIO</h1>
+        </section>
+        <section id="secPrincipal">
+            <article id="artInicio">
+                <h2 class="negrita">Proyecto LIIDIA</h2>
+                <article id="artLiidia" class="letraMediana">
+                    <article>
+                        <img src="{{ url_for('static', filename='img/liidia_imagen.jpeg')}}" id="imgLiidia" alt="LIIDIA">
+                    </article>
+                    <article>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod <br>
+                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <br>
+                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo <br>
+                            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse <br>
+                            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non <br>
+                            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        </p>
+                    </article>
+                </article>
+                <span id="tituloChicho" class="negrita">Proyecto CHICHO</span>
+                <article id="artChicho" class="letraMediana">
+                    <article>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod <br>
+                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <br>
+                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo <br>
+                            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse <br>
+                            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non <br>
+                            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        </p>
+                    </article>
+                    <article>
+                        <img src="{{ url_for('static', filename='img/chicho_imagen.jpg')}}" id="imgChicho" alt="CHICHO">
+                    </article>
+                </article>
+            </article>
+        </section>
+
+        <footer>
+            <span class="colorBlanco letraChica">
+                <p>INSTITUTO DE INFORMACIÓN ESTADÍSTICA Y GEOGRÁFICA</p>
+                <p>Calzada de los Pirules 71 Col. Cd. Granja C.P. 45010 Tel. (33) 37771770</p>
+                <p>Zapopan, Jalisco, México</p>
+            </span>
+        </footer>
+    </body>
+</html>
